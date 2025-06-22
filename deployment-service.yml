@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: bloggingapp
-          image: mulumbule/paciencia-repo:latest
+          image: mulumbule/paciencia-repo:39
           imagePullPolicy: Always
           ports:
             - containerPort: 8082
